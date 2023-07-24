@@ -1,9 +1,9 @@
 import { SlashCommandBuilder } from 'discord.js'
 
 export const command = new SlashCommandBuilder()
-.setName('ping')
-.setDescription('ping command')
+.setName('愛麗絲在嗎')
+.setDescription('測試')
 
 export const action = async (interaction) => {
-    interaction.reply('pong!')
+    interaction.reply('不在!')
 }
